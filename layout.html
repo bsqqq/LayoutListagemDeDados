@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Cadastro Biblioteca</title>
+</head>
+<body>
+        <div id="corpoDeCadastro">
+            <p id="titulo">Cadastro Biblioteca</p>
+            <label for="nome" id="Nome">Nome:</label>
+            <br>
+            <input type="text" id="nome" placeholder="Insira seu nome...">
+            <br>
+            <label for="sobrenome" id="Sobrenome">Sobrenome:</label>
+            <br>
+            <input type="text" id="sobrenome" placeholder="Insira seu sobrenome...">
+            <br>
+            <label for="email" id="E-mail">E-mail:</label>
+            <br>
+            <input type="text" id="email" placeholder="Insira seu email...">
+            <br>
+            <label for="senha" id="Senha">Senha:</label>
+            <br>
+            <input type="password" id="senha" placeholder="Insira sua senha...">
+            <br>
+            <label for="telefone" id="Telefone">Telefone:</label>
+            <label for="cep" id="CEP">CEP:</label>
+            <br>
+            <input type="number" id="telefone" placeholder="Insira seu telefone...">
+            <input type="number" id="cep" placeholder="Insira seu CEP">
+            <br> 
+            <label for="sexo" id="Sexo">Sexo:</label> 
+            <label for="check" id="newsletter">Newsletter:</label>
+            <br>
+            <select name="sexo" id="sexo">
+                <option value="Homem">Homem</option>
+                <option value="Mulher">Mulher</option>
+                <option value="Não-Binário">Não-Binário</option>
+            </select>
+            <input type="checkbox" id="check"> Desejo receber noticias.
+            <br>
+            <button type="submit" id="botao" onclick="enviar()">Enviar</button>
+        </div>
+</body>
+</html>
